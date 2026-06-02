@@ -8,6 +8,18 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'PortalPintar Docs',
+			head: [
+				{
+					tag: 'script',
+					content: `
+						(function() {
+							if (!localStorage.getItem('starlight-theme')) {
+								document.documentElement.setAttribute('data-theme', 'light');
+							}
+						})();
+					`,
+				},
+			],
 			customCss: [
 				'./src/styles/custom.css'
 			],
