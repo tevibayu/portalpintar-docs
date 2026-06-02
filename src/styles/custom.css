@@ -271,6 +271,12 @@ starlight-toc a[aria-current="true"] {
 	letter-spacing: -0.01em;
 }
 
+.sl-markdown-content :not(h1, h2, h3, h4, h5, h6) + h2:not(:where(.not-content *)),
+.sl-markdown-content h2:not(:where(.not-content *)) {
+	margin-top: 1.75rem !important;
+	margin-bottom: 0.5rem !important;
+}
+
 .sl-markdown-content p {
 	margin-top: 0.5rem !important;
 	margin-bottom: 0.5rem !important;

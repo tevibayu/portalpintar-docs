@@ -14,7 +14,7 @@ export default defineConfig({
 					content: `
 						(function() {
 							if (!localStorage.getItem('starlight-theme')) {
-								document.documentElement.setAttribute('data-theme', 'light');
+								localStorage.setItem('starlight-theme', 'light');
 							}
 						})();
 					`,
