@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://docs.portalpintar.app',
+	site: 'https://docs.portalpintar.id',
 	output: 'static',
 	integrations: [
 		sitemap(),
