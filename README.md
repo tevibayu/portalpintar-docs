@@ -1,49 +1,91 @@
-# Starlight Starter Kit: Basics
+# PortalPintar Docs
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-```
-bun create astro@latest -- --template starlight
-```
+Dokumentasi resmi platform **PortalPintar** — sistem manajemen bimbingan belajar all-in-one untuk Admin, Tutor, Siswa, dan Wali.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## 📚 Struktur Konten
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+Dokumentasi diorganisir berdasarkan peran pengguna:
+
+| Direktori | Konten |
+| :--- | :--- |
+| `src/content/docs/auth/` | Autentikasi & Onboarding |
+| `src/content/docs/dashboard/` | Dashboard Admin & Owner |
+| `src/content/docs/tutor/` | Portal Tutor / Tentor |
+| `src/content/docs/student/` | Portal Siswa & Wali |
+| `src/content/docs/playground/` | Playground Interaktif |
+| `src/content/docs/public/` | Halaman Publik |
+
+---
+
+## 🗂️ Struktur Project
 
 ```
 .
 ├── public/
 ├── src/
 │   ├── assets/
+│   ├── components/
+│   │   ├── TableOfContents.astro
+│   │   └── MobileTableOfContents.astro
 │   ├── content/
 │   │   └── docs/
+│   │       ├── auth/
+│   │       ├── dashboard/
+│   │       ├── tutor/
+│   │       ├── student/
+│   │       ├── playground/
+│   │       └── public/
+│   ├── styles/
+│   │   └── custom.css
 │   └── content.config.ts
 ├── astro.config.mjs
+├── wrangler.toml
 ├── package.json
 └── tsconfig.json
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
-
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
-
-Static assets, like favicons, can be placed in the `public/` directory.
+---
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+Semua perintah dijalankan dari root direktori project:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+| Perintah | Aksi |
+| :--- | :--- |
+| `bun install` | Install dependencies |
+| `bun run dev` | Jalankan dev server di `localhost:4321` |
+| `bun run build` | Build production site ke `./dist/` |
+| `bun run preview` | Preview build secara lokal sebelum deploy |
 
-## 👀 Want to learn more?
+---
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+## 🚀 Deploy ke Cloudflare Pages
+
+Site ini dikonfigurasi untuk di-deploy sebagai **static site** ke Cloudflare Pages.
+
+**Pengaturan build di Cloudflare Pages dashboard:**
+
+| Setting | Nilai |
+| :--- | :--- |
+| Framework preset | `Astro` |
+| Build command | `bun run build` |
+| Build output directory | `dist` |
+| Node.js version | `18` atau `20` |
+
+**Environment variable yang diperlukan:**
+
+| Variable | Value |
+| :--- | :--- |
+| `BUN_VERSION` | `1` |
+
+---
+
+## 🔗 Links
+
+- **Repository**: [github.com/tevibayu/portalpintar-docs](https://github.com/tevibayu/portalpintar-docs)
+- **Astro Starlight**: [starlight.astro.build](https://starlight.astro.build)
+- **Astro Docs**: [docs.astro.build](https://docs.astro.build)

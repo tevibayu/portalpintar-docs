@@ -4,6 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	output: 'static',
 	integrations: [
 		starlight({
 			title: 'PortalPintar Docs',
@@ -15,7 +16,7 @@ export default defineConfig({
 				MobileTableOfContents: './src/components/MobileTableOfContents.astro',
 			},
 			social: [
-				{ icon: 'github', label: 'GitHub', href: 'https://github.com/vh3z/portalpintar-app' }
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/tevibayu/portalpintar-docs' }
 			],
 			sidebar: [
 				{
