@@ -1,0 +1,362 @@
+/* src/styles/custom.css */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+	/* Sleek typography */
+	--sl-font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+	
+	/* Text sizes - compact scale */
+	--sl-text-2xs: 0.725rem;    /* 11.6px */
+	--sl-text-xs: 0.775rem;     /* 12.4px */
+	--sl-text-sm: 0.85rem;      /* 13.6px */
+	--sl-text-base: 0.925rem;   /* 14.8px */
+	--sl-text-lg: 1.025rem;     /* 16.4px */
+	--sl-text-xl: 1.15rem;      /* 18.4px */
+	--sl-text-2xl: 1.35rem;     /* 21.6px */
+	--sl-text-3xl: 1.6rem;      /* 25.6px */
+	--sl-text-4xl: 1.95rem;     /* 31.2px */
+	--sl-text-5xl: 2.4rem;      /* 38.4px */
+	
+	--sl-text-body: var(--sl-text-base);
+	--sl-text-body-sm: var(--sl-text-xs);
+	--sl-text-code: var(--sl-text-sm);
+	--sl-text-code-sm: var(--sl-text-xs);
+	
+	--sl-text-h1: var(--sl-text-3xl);
+	--sl-text-h2: var(--sl-text-2xl);
+	--sl-text-h3: var(--sl-text-xl);
+	--sl-text-h4: var(--sl-text-lg);
+	--sl-text-h5: var(--sl-text-base);
+
+	/* Line height & Spacing */
+	--sl-line-height: 1.5;
+	--sl-line-height-headings: 1.25;
+	--sl-content-gap-y: 0.75rem;
+	
+	/* Key layout sizes */
+	--sl-nav-height: 2.75rem;
+	--sl-nav-pad-x: 1rem;
+	--sl-nav-pad-y: 0.5rem;
+	--sl-sidebar-width: 18rem;
+	--sl-sidebar-pad-x: 1.1rem;
+	--sl-content-width: 48rem;
+	--sl-content-pad-x: 1.25rem;
+
+	/* Royal Theme Base Variables */
+	--color-brand-primary: #41277a;
+	--color-brand-primary-light: #5a3ba3;
+	--color-brand-primary-dark: #2d1b54;
+	--color-brand-accent: #f8cc55;
+	--color-brand-accent-light: #fbe095;
+	--color-brand-accent-dark: #e0b02a;
+
+	/* Enhanced dark theme colors — Royal Purple undertone */
+	--sl-color-bg: #0a0813;
+	--sl-color-bg-nav: rgba(10, 8, 19, 0.8);
+	--sl-color-bg-sidebar: #0e0b1a;
+	--sl-color-gray-6: #160f28;
+	--sl-color-gray-5: #1f1640;
+	--sl-color-gray-4: #3a2c62;
+	--sl-color-gray-3: #8a7ab0;
+	--sl-color-gray-2: #cac0e8;
+	--sl-color-white: #f0ecff;
+	--sl-color-accent: var(--color-brand-accent); /* Gold */
+	--sl-color-accent-low: rgba(65, 39, 122, 0.35);
+	--sl-color-accent-high: var(--color-brand-accent-light);
+	/* text-accent: warna teks link aktif di TOC dan sidebar */
+	--sl-color-text-accent: var(--color-brand-accent); /* Gold — visibel di atas bg gelap */
+	/* text-invert: warna teks di atas accent background (sidebar active item bg) */
+	--sl-color-text-invert: var(--color-brand-primary-dark); /* #2d1b54 — gelap di atas gold */
+
+	/* Subtle shadow & glow */
+	--sl-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+	--sl-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+	--sl-shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* CSS class support for .theme-royal */
+.theme-royal {
+	--color-brand-primary: #41277a;
+	--color-brand-primary-light: #5a3ba3;
+	--color-brand-primary-dark: #2d1b54;
+	--color-brand-accent: #f8cc55;
+	--color-brand-accent-light: #fbe095;
+	--color-brand-accent-dark: #e0b02a;
+}
+
+/* Light theme colors override */
+:root[data-theme='light'] {
+	--sl-color-bg: #f8fafc;
+	--sl-color-bg-nav: rgba(248, 250, 252, 0.75);
+	--sl-color-bg-sidebar: #f1f5f9;
+	--sl-color-gray-6: #e2e8f0;
+	--sl-color-gray-5: #cbd5e1;
+	--sl-color-gray-4: #94a3b8;
+	--sl-color-gray-3: #64748b;
+	--sl-color-gray-2: #334155;
+	--sl-color-white: #0f172a;
+	--sl-color-accent: var(--color-brand-primary); /* Royal purple */
+	--sl-color-accent-low: rgba(248, 204, 85, 0.25); /* Gold translucent tint */
+	--sl-color-accent-high: var(--color-brand-primary-dark);
+	/* text-accent: warna link aktif di TOC dan sidebar */
+	--sl-color-text-accent: var(--color-brand-primary); /* #41277a — ungu di atas bg putih */
+	/* text-invert: teks di atas sidebar active bg (accent) */
+	--sl-color-text-invert: #ffffff; /* Putih — terbaca di atas background ungu */
+}
+
+/* Desktop layout updates */
+@media (min-width: 50em) {
+	:root {
+		--sl-nav-height: 3rem;
+		--sl-nav-pad-x: 1.5rem;
+		--sl-text-h1: var(--sl-text-4xl);
+		--sl-text-h2: var(--sl-text-3xl);
+		--sl-text-h3: var(--sl-text-2xl);
+		--sl-text-h4: var(--sl-text-xl);
+	}
+}
+
+@media (min-width: 72rem) {
+	:root {
+		--sl-content-pad-x: 1.5rem;
+	}
+}
+
+/* Header Glassmorphism styling */
+header.header {
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	border-bottom: 1px solid var(--sl-color-gray-5) !important;
+}
+
+/* Sidebar spacing overrides */
+.sidebar-pane {
+	border-inline-end: 1px solid var(--sl-color-gray-5) !important; /* Naikkan ke gray-5 agar separator terlihat */
+}
+
+.sidebar-content {
+	padding: 1.15rem var(--sl-sidebar-pad-x) 1.15rem !important;
+	gap: 0.95rem !important;
+}
+
+.top-level > li + li {
+	margin-top: 0.5rem !important;
+}
+
+ul ul li {
+	margin-inline-start: 0.35rem !important;
+	padding-inline-start: 0.35rem !important;
+}
+
+.sidebar-content a, 
+.sidebar-content summary {
+	padding-block: 0.3rem !important;
+	font-size: 0.825rem !important;
+	line-height: 1.35 !important;
+	border-radius: 0.2rem !important;
+}
+
+.sidebar-content a > span,
+.sidebar-content summary .group-label {
+	display: inline-block;
+	white-space: normal;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+	max-width: 100%;
+}
+
+.sidebar-content .large {
+	font-size: 0.875rem !important;
+	font-weight: 500 !important;
+}
+
+/* Active state for left sidebar - iOS selected list capsule */
+.sidebar-content a[aria-current="page"] {
+	color: var(--color-brand-accent) !important;
+	background-color: rgba(90, 59, 163, 0.25) !important;
+	font-weight: 600 !important;
+}
+
+:root[data-theme='light'] .sidebar-content a[aria-current="page"] {
+	color: var(--color-brand-primary-dark) !important;
+	background-color: rgba(248, 204, 85, 0.25) !important;
+	font-weight: 600 !important;
+}
+
+/* On This Page (Right Panel) - Clean iOS Style Redesign */
+.right-sidebar-panel {
+	padding: 1.25rem var(--sl-sidebar-pad-x) !important;
+}
+
+.right-sidebar-panel h2 {
+	font-size: 0.825rem !important;
+	margin-bottom: 0.75rem !important;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	color: var(--sl-color-gray-3) !important;
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+}
+
+.right-sidebar-panel h2::before {
+	content: "";
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: var(--sl-color-accent);
+}
+
+/* Table Of Contents navigation container */
+starlight-toc nav {
+	position: relative;
+	border-left: none !important;
+	margin-left: 0 !important;
+	padding: 0 !important;
+}
+
+/* TOC links - iOS-style rounded pill items */
+starlight-toc a {
+	display: flex !important;
+	align-items: center;
+	padding: 0.4rem 0.75rem !important;
+	padding-inline-start: calc(var(--depth) * 0.75rem + 0.75rem) !important;
+	color: var(--sl-color-gray-2) !important; /* Naik ke gray-2 agar lebih terbaca di font kecil */
+	font-size: 0.85rem !important;
+	line-height: 1.35 !important;
+	text-decoration: none !important;
+	border-left: none !important;
+	margin: 0.15rem 0 !important;
+	transition: background-color 0.15s ease, color 0.15s ease !important;
+	border-radius: 8px !important;
+}
+
+/* Hover state */
+starlight-toc a:hover {
+	color: var(--sl-color-white) !important; /* Eksplisit #f0ecff — hindari sl-color-text-invert yg tidak terprediksi */
+	background-color: var(--sl-color-gray-5) !important; /* Naikkan ke gray-5 agar background terlihat */
+}
+
+/* Active state - iOS selected list capsule — Royal Gold (Dark Mode) */
+starlight-toc a[aria-current="true"] {
+	color: var(--color-brand-accent) !important;
+	background-color: rgba(90, 59, 163, 0.25) !important;
+}
+
+/* Active state for Light Mode */
+:root[data-theme='light'] starlight-toc a[aria-current="true"] {
+	color: var(--color-brand-primary-dark) !important;
+	background-color: rgba(65, 39, 122, 0.08) !important;
+}
+
+/* Markdown Content Area spacing */
+.sl-markdown-content :not(a, strong, em, del, span, input, code, br) + :not(a, strong, em, del, span, input, code, br, :where(.not-content *)) {
+	margin-top: var(--sl-content-gap-y) !important;
+}
+
+.sl-markdown-content :not(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6):not(:where(.not-content *)) {
+	margin-top: 1.15em !important;
+}
+
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3,
+.sl-markdown-content h4,
+.sl-markdown-content h5,
+.sl-markdown-content h6 {
+	margin-bottom: 0.35rem !important;
+	font-weight: 600 !important;
+	letter-spacing: -0.01em;
+}
+
+.sl-markdown-content p {
+	margin-top: 0.5rem !important;
+	margin-bottom: 0.5rem !important;
+	line-height: 1.65 !important;
+}
+
+/* Lists spacing */
+.sl-markdown-content li {
+	line-height: 1.6 !important;
+}
+
+.sl-markdown-content li + li:not(:where(.not-content *)),
+.sl-markdown-content dt + dt:not(:where(.not-content *)),
+.sl-markdown-content dt + dd:not(:where(.not-content *)),
+.sl-markdown-content dd + dd:not(:where(.not-content *)) {
+	margin-top: 0.25rem !important;
+}
+
+.sl-markdown-content ul,
+.sl-markdown-content ol {
+	margin-top: 0.35rem !important;
+	margin-bottom: 0.35rem !important;
+	padding-inline-start: 1.25rem !important;
+}
+
+.sl-markdown-content :is(ol, ul):has(> li > :not(a, strong, em, del, span, input, code, br, script, ol, ul)) > li > :last-child {
+	margin-bottom: 0.6rem !important;
+}
+
+/* Tables compact layout */
+.sl-markdown-content table {
+	margin-top: 0.5rem !important;
+	margin-bottom: 0.5rem !important;
+}
+
+.sl-markdown-content :is(th, td) {
+	padding: 0.35rem 0.6rem !important;
+	font-size: 0.85rem !important;
+	border-color: var(--sl-color-gray-5) !important; /* Naikkan ke gray-5 agar border tabel terlihat di light mode */
+}
+
+/* Preformatted code blocks */
+.sl-markdown-content pre {
+	padding: 0.5rem 0.75rem !important;
+	margin-top: 0.5rem !important;
+	margin-bottom: 0.5rem !important;
+	border-radius: 0.375rem !important;
+	border-color: rgba(138, 122, 176, 0.3) !important; /* Lavender semi-transparan agar kontras vs bg #08061a */
+	background-color: #08061a !important;
+}
+
+/* Asides / Callouts */
+.sl-markdown-content .starlight-aside {
+	padding: 0.6rem 0.85rem !important;
+	margin-top: 0.6rem !important;
+	margin-bottom: 0.6rem !important;
+	font-size: 0.85rem !important;
+	border-radius: 0.375rem !important;
+}
+
+/* Subtle hover micro-animations on links and sidebar elements */
+.sidebar-content a:hover {
+	transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+	transform: translateX(1px);
+}
+
+/* Thin and subtle custom scrollbars */
+* {
+	scrollbar-width: thin !important;
+	scrollbar-color: rgba(120, 120, 120, 0.25) transparent !important;
+}
+
+::-webkit-scrollbar {
+	width: 5px !important;
+	height: 5px !important;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(120, 120, 120, 0.25) !important;
+	border-radius: 999px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(120, 120, 120, 0.45) !important;
+}

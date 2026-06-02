@@ -1,0 +1,29 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import DefaultTableOfContents from '@astrojs/starlight/components/TableOfContents.astro';
+
+function stripEmojis(text: string): string {
+  if (!text) return '';
+  return text
+    .replace(/[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function processToc(items: any[]): any[] {
+  if (!items) return items;
+  return items.map(item => ({
+    ...item,
+    text: stripEmojis(item.text),
+    children: processToc(item.children)
+  }));
+}
+
+// Mutate Astro.locals.starlightRoute.toc before default render
+const { starlightRoute } = Astro.locals;
+if (starlightRoute && starlightRoute.toc && starlightRoute.toc.items) {
+  starlightRoute.toc.items = processToc(starlightRoute.toc.items);
+}
+---
+
+<DefaultTableOfContents {...Astro.props} />
