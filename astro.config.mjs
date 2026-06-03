@@ -10,7 +10,7 @@ export default defineConfig({
 	integrations: [
 		sitemap(),
 		starlight({
-			title: 'PortalPintar Docs',
+			title: 'PortalPintar',
 			favicon: '/favicon.svg',
 			head: [
 				{
@@ -27,7 +27,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'viewport',
-						content: 'width=device-width, initial-scale=0.75, maximum-scale=0.8, user-scalable=no, viewport-fit=cover',
+						content: 'width=device-width, initial-scale=0.85, maximum-scale=0.9, user-scalable=no, viewport-fit=cover',
 					},
 				},
 			],
