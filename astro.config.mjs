@@ -11,6 +11,9 @@ export default defineConfig({
 		sitemap(),
 		starlight({
 			title: 'PortalPintar',
+			logo: {
+				src: '/favicon.svg',
+			},
 			favicon: '/favicon.svg',
 			head: [
 				{
