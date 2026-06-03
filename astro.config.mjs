@@ -11,6 +11,7 @@ export default defineConfig({
 		sitemap(),
 		starlight({
 			title: 'PortalPintar Docs',
+			favicon: '/favicon.svg',
 			head: [
 				{
 					tag: 'script',
@@ -21,6 +22,13 @@ export default defineConfig({
 							}
 						})();
 					`,
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'viewport',
+						content: 'width=device-width, initial-scale=0.75, maximum-scale=0.8, user-scalable=no, viewport-fit=cover',
+					},
 				},
 			],
 			customCss: [
