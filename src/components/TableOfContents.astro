@@ -1,21 +1,22 @@
 ---
-import type { Props } from '@astrojs/starlight/props';
-import DefaultTableOfContents from '@astrojs/starlight/components/TableOfContents.astro';
+import type { Props } from "@astrojs/starlight/props";
+import DefaultTableOfContents from "@astrojs/starlight/components/TableOfContents.astro";
+import PartnerLink from "./PartnerLink.astro";
 
 function stripEmojis(text: string): string {
-  if (!text) return '';
+  if (!text) return "";
   return text
-    .replace(/[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu, '')
-    .replace(/\s+/g, ' ')
+    .replace(/[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu, "")
+    .replace(/\s+/g, " ")
     .trim();
 }
 
 function processToc(items: any[]): any[] {
   if (!items) return items;
-  return items.map(item => ({
+  return items.map((item) => ({
     ...item,
     text: stripEmojis(item.text),
-    children: processToc(item.children)
+    children: processToc(item.children),
   }));
 }
 
@@ -24,6 +25,38 @@ const { starlightRoute } = Astro.locals;
 if (starlightRoute && starlightRoute.toc && starlightRoute.toc.items) {
   starlightRoute.toc.items = processToc(starlightRoute.toc.items);
 }
+
+// Data partner links utama
+const partners = [
+  {
+    href: "https://portalpintar.id/register",
+    logoType: "color",
+    logoUrl: "/images/portal.svg",
+    name: "Portal Pintar",
+    subtitle: "Edu System",
+  },
+  {
+    href: "https://portalpintar.id/playground",
+    logoType: "gray",
+    logoUrl: "/images/portal.svg",
+    name: "Portal Pintar",
+    subtitle: "Playground",
+  },
+] as const;
 ---
 
 <DefaultTableOfContents {...Astro.props} />
+
+<!-- External Links Sidebar Widget (Replicated Components via Loop) -->
+<div class="toc-external-links">
+  {partners.map((partner) => <PartnerLink {...partner} />)}
+</div>
+
+<style>
+  .toc-external-links {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+</style>
