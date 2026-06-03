@@ -12,7 +12,7 @@ export default defineConfig({
 		starlight({
 			title: 'PortalPintar',
 			logo: {
-				src: '/favicon.svg',
+				src: './src/assets/favicon.svg',
 			},
 			favicon: '/favicon.svg',
 			head: [
