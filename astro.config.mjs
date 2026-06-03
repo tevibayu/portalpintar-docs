@@ -17,6 +17,12 @@ export default defineConfig({
 				alt: 'PortalPintar Logo',
 			},
 			favicon: '/favicon.svg',
+			locales: {
+				root: {
+					label: 'Bahasa Indonesia',
+					lang: 'id',
+				},
+			},
 			head: [
 				{
 					tag: 'script',
