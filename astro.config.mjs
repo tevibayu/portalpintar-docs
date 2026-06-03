@@ -13,6 +13,8 @@ export default defineConfig({
 			title: 'PortalPintar',
 			logo: {
 				src: './src/assets/favicon.svg',
+				replacesTitle: true,
+				alt: 'PortalPintar Logo',
 			},
 			favicon: '/favicon.svg',
 			head: [
