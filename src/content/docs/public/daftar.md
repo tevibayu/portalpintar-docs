@@ -6,7 +6,7 @@ Halaman ini adalah formulir pendaftaran siswa baru secara online. Calon siswa at
 
 ---
 
-## 📝 Formulir Pendaftaran & Langkahnya
+## Formulir Pendaftaran & Langkahnya
 
 Calon pendaftar akan melewati beberapa tahapan pengisian data di layar ini:
 

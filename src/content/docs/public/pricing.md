@@ -6,7 +6,7 @@ Halaman ini ditujukan bagi pemilik bimbingan belajar (owner bimbel) baru yang in
 
 ---
 
-## 💰 Fitur & Pilihan Paket sewa
+## Fitur & Pilihan Paket sewa
 
 Di halaman ini, calon pelanggan dapat melihat:
 

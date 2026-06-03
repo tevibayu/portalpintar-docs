@@ -6,7 +6,7 @@ Halaman Laporan & Jurnal adalah modul audit keuangan bimbel. Layar ini menyediak
 
 ---
 
-## 📅 Pemilihan Periode & Ekspor PDF (Bagian Kanan Atas)
+## Pemilihan Periode & Ekspor PDF (Bagian Kanan Atas)
 
 *   **Penyaring Bulan**: Input pemilih bulan (format Tahun-Bulan) untuk memuat data transaksi pada periode spesifik tersebut.
 *   **Tombol Ekspor PDF**:
@@ -15,7 +15,7 @@ Halaman Laporan & Jurnal adalah modul audit keuangan bimbel. Layar ini menyediak
 
 ---
 
-## 🧾 Ringkasan Finansial Bulanan (Stats Row)
+## Ringkasan Finansial Bulanan (Stats Row)
 
 Menampilkan 4 kartu ringkasan cepat:
 1.  **Total Pendapatan**: Jumlah akumulasi pemasukan (SPP murid) pada bulan berjalan.
@@ -25,7 +25,7 @@ Menampilkan 4 kartu ringkasan cepat:
 
 ---
 
-## 🔍 Penyaringan & Rincian Jurnal Transaksi
+## Penyaringan & Rincian Jurnal Transaksi
 
 *   **Kolom Pencarian**: Membantu admin menyaring transaksi berdasarkan nama/keterangan pengeluaran atau kategori (misal: mencari *"spidol"* atau *"Dago"*).
 *   **Filter Tipe Transaksi**: Membatasi tampilan daftar transaksi untuk menampilkan **Semua Transaksi**, **Pemasukan Saja**, atau **Pengeluaran Saja**.

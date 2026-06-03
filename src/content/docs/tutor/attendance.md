@@ -6,7 +6,7 @@ Halaman Presensi Akademik adalah layar utama yang wajib diisi oleh Tutor setiap 
 
 ---
 
-## 🔒 Verifikasi Pengajar & Detail Sesi
+## Verifikasi Pengajar & Detail Sesi
 
 Di bagian atas layar, tutor melakukan konfirmasi keaktifan mengajar:
 *   **Status Kehadiran Tutor**: Tombol centang *"Tutor Hadir"* untuk membuktikan tutor hadir mengajar di kelas pada jam tersebut.
@@ -15,7 +15,7 @@ Di bagian atas layar, tutor melakukan konfirmasi keaktifan mengajar:
 
 ---
 
-## 📊 Matriks Kehadiran & Indikator Sikap Siswa
+## Matriks Kehadiran & Indikator Sikap Siswa
 
 Tutor menilai perkembangan murid secara instan melalui 7 tombol indikator (metrics):
 1.  **Hdr (Hadir)**: Mengonfirmasi kehadiran murid.
@@ -28,7 +28,7 @@ Tutor menilai perkembangan murid secara instan melalui 7 tombol indikator (metri
 
 ---
 
-## ✍️ Catatan Sesi & Optimasi AI (AI Note Generator)
+## Catatan Sesi & Optimasi AI (AI Note Generator)
 
 *   **Catatan Manual**: Tutor menuliskan poin-poin observasi mengenai murid (contoh: *"Budi sudah paham rumus dasar, tapi masih sering keliru menghitung perkalian desimal"*).
 *   **Optimasi AI  (Saran AI)**:
@@ -37,7 +37,7 @@ Tutor menilai perkembangan murid secara instan melalui 7 tombol indikator (metri
 
 ---
 
-## 💾 Mekanisme Auto-Save & Publikasi
+## Mekanisme Auto-Save & Publikasi
 
 *   **Auto-Save 5 Detik**: Aplikasi memiliki fitur autosave otomatis di latar belakang yang mendeteksi perubahan data setiap 5 detik agar data kerja tidak hilang apabila koneksi internet terputus.
 *   **Tombol Simpan Perubahan**: Klik tombol ini untuk menyimpan final presensi. Status sesi akan terupdate, yang nantinya memicu pengiriman notifikasi/slip laporan langsung ke wali murid.

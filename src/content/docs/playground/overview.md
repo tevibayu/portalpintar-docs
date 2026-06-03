@@ -6,7 +6,7 @@ Layar Playground & Editor Interaktif adalah fitur eksklusif PortalPintar yang di
 
 ---
 
-## 🖥️ Editor & Player Interaktif (`/playground/editor/[id]`)
+## Editor & Player Interaktif (`/playground/editor/[id]`)
 
 Panel editor terbagi menjadi tiga area utama:
 1.  **Kanvas Player (Video Canvas)**: Tempat memutar video yang sedang diedit. Di sinilah interaksi akan muncul melayang (overlay) di atas video pada detik tertentu yang ditentukan.
@@ -15,7 +15,7 @@ Panel editor terbagi menjadi tiga area utama:
 
 ---
 
-## ⚙️ Jenis Interaksi Pembelajaran
+## Jenis Interaksi Pembelajaran
 
 Tutor dapat menambahkan tiga jenis interaksi yang akan memotong video secara otomatis:
 *   **Kuis Pilihan Ganda (`quiz_multiple_choice`)**: Menyisipkan pertanyaan di tengah video. Video akan terhenti otomatis (jika *"Jeda Otomatis"* diaktifkan) dan tidak akan berlanjut sampai murid memilih jawaban yang benar.
@@ -24,13 +24,13 @@ Tutor dapat menambahkan tiga jenis interaksi yang akan memotong video secara oto
 
 ---
 
-## 🤖 Automasi AI Video (AI Suggest Interaction)
+## Automasi AI Video (AI Suggest Interaction)
 
 *   **Deteksi Otomatis AI**: Tutor dapat mengklik tombol **"Buat Interaksi Otomatis"**. AI  akan memindai dan menganalisis transkrip isi video, lalu secara cerdas menyarankan titik-titik menit penting untuk disisipi kuis atau rangkuman secara otomatis tanpa perlu tutor menonton dari awal sampai akhir.
 
 ---
 
-## 🔗 Pembagian & Pengelolaan Modul
+## Pembagian & Pengelolaan Modul
 
 *   **Bagikan Link**: Salin tautan preview unik (`/playground/preview/[id]`) untuk dikirimkan langsung ke siswa via WhatsApp atau Google Classroom. Siswa dapat mengerjakan interaksi video tersebut secara langsung.
 *   **Pengaturan Media**:

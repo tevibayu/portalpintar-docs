@@ -6,7 +6,7 @@ Setelah pemilik bimbingan belajar (owner) mendaftarkan akun baru, sistem akan me
 
 ---
 
-## 🛠️ Langkah-Langkah Persiapan Awal
+## Langkah-Langkah Persiapan Awal
 
 Panduan inisialisasi ini terdiri dari 4 langkah mudah:
 

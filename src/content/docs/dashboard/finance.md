@@ -6,7 +6,7 @@ Halaman Keuangan & Aset adalah pusat kendali keuangan bimbel Anda. Layar ini mem
 
 ---
 
-## 🔒 Privasi & Ringkasan Keuangan (Bagian Atas)
+## Privasi & Ringkasan Keuangan (Bagian Atas)
 
 *   **Tombol Sensor Angka (Mata)**: Ikon mata di sebelah judul halaman untuk menyembunyikan atau menampilkan semua angka nominal keuangan di layar demi keamanan saat membukanya di tempat umum.
 *   **Kartu Metrik Utama**:
@@ -17,7 +17,7 @@ Halaman Keuangan & Aset adalah pusat kendali keuangan bimbel Anda. Layar ini mem
 
 ---
 
-## 📊 Tab 1: SPP Siswa (Grid Tagihan Dinamis)
+## Tab 1: SPP Siswa (Grid Tagihan Dinamis)
 
 Modul ini berbentuk tabel matriks interaktif untuk mencocokkan kehadiran dan pembayaran siswa:
 
@@ -36,7 +36,7 @@ Modul ini berbentuk tabel matriks interaktif untuk mencocokkan kehadiran dan pem
 
 ---
 
-## 👨‍🏫 Tab 2: Penggajian Tutor (Tutor Payroll)
+## Tab 2: Penggajian Tutor (Tutor Payroll)
 
 Sistem menghitung otomatis gaji guru di akhir periode:
 1.  **Akumulasi Jam Ajar**: Sistem menyaring sesi ajar tutor yang sudah diverifikasi (status *Published*) selama bulan terpilih.

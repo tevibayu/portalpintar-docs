@@ -6,7 +6,7 @@ Halaman verifikasi sertifikat digunakan oleh pihak luar (seperti sekolah, instan
 
 ---
 
-## 🎖️ Cara kerja Verifikasi Sertifikat (`/c/[id]`)
+## Cara kerja Verifikasi Sertifikat (`/c/[id]`)
 
 Setiap sertifikat kelulusan program atau apresiasi nilai tryout yang diterbitkan bimbel dilengkapi dengan QR Code unik yang mengarah ke alamat `/c/[kode_unik]`.
 
@@ -22,7 +22,7 @@ Saat halaman ini diakses:
 
 ---
 
-## 🔗 Tautan Pengalihan Pendek (`/v/[id]`)
+## Tautan Pengalihan Pendek (`/v/[id]`)
 
 *   Rute `/v/[id]` adalah sistem tautan pendek (shortlink) internal otomatis.
 *   Tautan ini digunakan saat tutor atau admin membagikan preview media ajar interaktif. Saat diakses, sistem secara otomatis mengalihkan browser pengguna ke halaman pratinjau simulator media ajar yang sesuai di `/playground/preview/[id]`.

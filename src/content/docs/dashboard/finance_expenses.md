@@ -6,7 +6,7 @@ Dokumentasi ini merinci pengelolaan pembukuan operasional non-akademik di Portal
 
 ---
 
-## 💸 Tab 3: Pengeluaran (Buku Kas Keluar)
+## Tab 3: Pengeluaran (Buku Kas Keluar)
 
 Digunakan untuk mencatat semua pengeluaran rutin bimbel (seperti biaya sewa gedung, listrik, internet, air, pembelian spidol, dan gaji staf admin):
 
@@ -23,7 +23,7 @@ Digunakan untuk mencatat semua pengeluaran rutin bimbel (seperti biaya sewa gedu
 
 ---
 
-## 📦 Tab 4: Inventarisasi Aset Bimbel
+## Tab 4: Inventarisasi Aset Bimbel
 
 Digunakan untuk memantau barang milik lembaga (aset fisik) agar tidak hilang dan mempermudah perhitungan penyusutan barang (contoh: Air Conditioner, meja belajar, papan tulis, laptop operasional):
 

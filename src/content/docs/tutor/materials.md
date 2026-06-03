@@ -6,7 +6,7 @@ Modul Bahan Ajar adalah pustaka digital interaktif bagi Tutor untuk mengakses, m
 
 ---
 
-## 🗂️ Kategori & Format Bahan Ajar
+## Kategori & Format Bahan Ajar
 
 PortalPintar mendukung berbagai macam format file pembelajaran yang dikelompokkan berdasarkan tipenya:
 1.  **eBook / PDF (`ebook`)**: Buku paket digital, modul ringkasan teori, dan kumpulan rumus cepat.
@@ -17,18 +17,18 @@ PortalPintar mendukung berbagai macam format file pembelajaran yang dikelompokka
 
 ---
 
-## 🔍 Pencarian & Filter Materi
+## Pencarian & Filter Materi
 
 *   **Penyaring Jenjang Kelas**: Dropdown untuk membatasi tampilan materi berdasarkan kelas target mulai dari **Umum**, **Kelas 1 - 6 SD**, **Kelas 7 - 9 SMP**, hingga **Kelas 10 - 12 SMA**.
 *   **Kolom Pencarian Cepat**: Mengetik kata kunci judul buku atau mata pelajaran (contoh: *"Aljabar"*, *"UTBK 2026"*, *"Fisika"*) untuk mencari modul secara instan.
 
 ---
 
-## 📖 Pratinjau & Kontrol Aksi Tutor
+## Pratinjau & Kontrol Aksi Tutor
 
 *   **Tombol Baca / Tonton**: Membuka dokumen PDF atau memutar video secara langsung di dalam *Interactive Player* terintegrasi di PortalPintar tanpa perlu keluar dari aplikasi atau mengunduh file secara manual.
 *   **Hak Akses Pembuatan Materi**:
-    *   Jika Tutor membuat materi sendiri (melalui playground), tutor akan melihat tombol edit (ikon pensil ✏️) untuk memodifikasi modul di Editor, serta tombol hapus (ikon tempat sampah 🗑️) untuk menghapus materi tersebut dari galeri lokalnya.
+    *   Jika Tutor membuat materi sendiri (melalui playground), tutor akan melihat tombol edit (ikon pensil) untuk memodifikasi modul di Editor, serta tombol hapus (ikon tempat sampah) untuk menghapus materi tersebut dari galeri lokalnya.
 
 ---
 

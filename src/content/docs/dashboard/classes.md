@@ -6,7 +6,7 @@ Halaman Manajemen Kelas digunakan untuk mengelompokkan siswa ke dalam rombongan 
 
 ---
 
-## 🏫 Fitur Kelola Kelas
+## Fitur Kelola Kelas
 
 1.  **Daftar Kelas**:
     *   Tampilan kartu atau tabel kelas yang sedang aktif, memuat nama kelas (misal: *12 SMA Intensif UTBK*), nama program belajar, nama pengajar utama, kuota siswa terisi vs kapasitas maksimal, dan status keaktifan.

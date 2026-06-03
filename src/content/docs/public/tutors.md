@@ -6,7 +6,7 @@ Halaman katalog tutor adalah direktori publik yang menampilkan daftar pengajar (
 
 ---
 
-## 🔍 Apa yang Ada di Halaman Katalog?
+## Apa yang Ada di Halaman Katalog?
 
 1.  **Daftar Profil Tutor (`/tutors`)**:
     *   Menampilkan kartu profil singkat setiap pengajar lengkap dengan foto, nama, spesialisasi bidang studi (misal: *Fisika SMA*, *Matematika UTBK*), dan rating bintang rata-rata dari ulasan murid.

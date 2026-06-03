@@ -6,7 +6,7 @@ Halaman Bahan Ajar di Portal Siswa menyediakan pustaka materi belajar digital ya
 
 ---
 
-## 📚 Akses Pustaka Digital & Format Materi
+## Akses Pustaka Digital & Format Materi
 
 Siswa dapat mengakses berbagai modul belajar sesuai materi yang sedang dipelajari di kelas:
 1.  **Modul Teori & eBook (`ebook`)**: PDF berisi ringkasan teori mata pelajaran, rumus cepat matematika/fisika, atau bank soal latihan.
@@ -17,14 +17,14 @@ Siswa dapat mengakses berbagai modul belajar sesuai materi yang sedang dipelajar
 
 ---
 
-## 🔍 Pencarian & Filter Kelas Belajar
+## Pencarian & Filter Kelas Belajar
 
 *   **Penyaring Jenjang (Filter Kelas)**: Memungkinkan siswa menyaring materi yang tampil agar sesuai dengan tingkat kelasnya (misalnya memilih khusus materi **Kelas 7 SMP** atau **Umum**).
 *   **Kolom Pencarian**: Siswa dapat mengetik kata kunci materi yang dicari (seperti *"Pecahan"*, *"Tenses"*, *"Tata Surya"*) untuk menemukan modul yang relevan secara cepat.
 
 ---
 
-## 🖥️ Pemutaran & Pembaca Dokumen Terintegrasi
+## Pemutaran & Pembaca Dokumen Terintegrasi
 
 *   **Tombol Baca / Tonton**: Siswa dapat langsung mengklik tombol aksi pada kartu materi untuk membuka dokumen PDF atau menonton video di pemutar bawaan (*Interactive Player*) PortalPintar. Hal ini membuat belajar lebih praktis tanpa perlu mengunduh file besar ke memori HP/komputer atau membuka aplikasi pemutar video pihak ketiga.
 

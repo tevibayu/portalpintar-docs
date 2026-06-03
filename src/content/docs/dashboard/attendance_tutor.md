@@ -6,7 +6,7 @@ Halaman Presensi Pengajar adalah layar pencatatan waktu kehadiran kerja (Clock I
 
 ---
 
-## 🕒 Fitur & Alur Clock In/Out Tutor
+## Fitur & Alur Clock In/Out Tutor
 
 Pengajar dapat mencatat jam kerjanya melalui panel ini:
 

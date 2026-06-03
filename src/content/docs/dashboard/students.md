@@ -6,7 +6,7 @@ Halaman ini berfungsi sebagai pusat basis data (database) murid yang terdaftar d
 
 ---
 
-## 👥 Fitur Manajemen Siswa
+## Fitur Manajemen Siswa
 
 1.  **Tabel & Pencarian Siswa**:
     *   Daftar seluruh siswa terdaftar yang dilengkapi dengan nama lengkap, ID unik siswa, nama kelas aktif, serta status keaktifan (Aktif, Lulus, Cuti, Nonaktif).

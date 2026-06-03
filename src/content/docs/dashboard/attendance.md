@@ -6,7 +6,7 @@ Halaman Presensi Akademik adalah pusat pemantauan absensi harian siswa dan pengi
 
 ---
 
-## 🧭 Langkah Pengisian & Pemantauan Absensi
+## Langkah Pengisian & Pemantauan Absensi
 
 Layar ini dirancang dengan alur kerja terstruktur:
 

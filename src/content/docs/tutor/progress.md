@@ -6,7 +6,7 @@ Halaman Analitik Siswa adalah pusat pemantauan akademik dan personalia murid yan
 
 ---
 
-## 👥 Panel Pemilihan Murid (Sidebar)
+## Panel Pemilihan Murid (Sidebar)
 
 *   **Daftar Siswa Kelas**: Menampilkan daftar semua murid yang tergabung di dalam kelas ajar Anda.
 *   **Kolom Pencarian**: Membantu tutor menyaring nama murid dengan cepat demi kenyamanan jika jumlah siswa banyak.
@@ -14,14 +14,14 @@ Halaman Analitik Siswa adalah pusat pemantauan akademik dan personalia murid yan
 
 ---
 
-## 📈 Metrik Aktivitas & Kehadiran
+## Metrik Aktivitas & Kehadiran
 
 *   **Tingkat Kehadiran**: Menampilkan persentase kehadiran murid di kelas (jumlah hadir vs jumlah total pertemuan).
 *   **Metrik Kehadiran & Partisipasi**: Diagram batang (*Bar Chart*) yang merepresentasikan keaktifan murid di kelas berdasarkan data presensi sebelumnya (seberapa rajin bertanya, menjawab, fokus, dan mengerjakan tugas).
 
 ---
 
-## 📖 Jurnal Riwayat Belajar (Timeline Perkembangan)
+## Jurnal Riwayat Belajar (Timeline Perkembangan)
 
 Merupakan catatan audit trail akademik murid secara kronologis dari pertemuan pertama hingga terakhir:
 *   **Tanggal & Topik Pelajaran**: Materi/sub-bab yang diajarkan pada tanggal tersebut.
@@ -30,7 +30,7 @@ Merupakan catatan audit trail akademik murid secara kronologis dari pertemuan pe
 
 ---
 
-## 🧠 Profil Potensi Kognitif & AI Persona (AI Insights)
+## Profil Potensi Kognitif & AI Persona (AI Insights)
 
 Sistem memetakan kepribadian belajar murid secara ilmiah:
 1.  **Radar Chart Keseimbangan Kognitif**:

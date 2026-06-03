@@ -6,7 +6,7 @@ Halaman Manajemen Tutor digunakan oleh admin untuk mengelola basis data pengajar
 
 ---
 
-## 👨‍🏫 Fitur Utama Pengelolaan Tutor
+## Fitur Utama Pengelolaan Tutor
 
 1.  **Daftar Tutor Aktif**:
     *   Tabel yang menampilkan nama lengkap tutor, email, nomor WhatsApp, status aktif, mata pelajaran yang diampu, serta cabang bimbel tempat bertugas.

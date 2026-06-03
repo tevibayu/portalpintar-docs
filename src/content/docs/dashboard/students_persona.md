@@ -6,7 +6,7 @@ Halaman Rapor & Persona Siswa adalah modul analisis mendalam untuk memahami kara
 
 ---
 
-## 🧭 Isi Analisis Persona & Kepribadian
+## Isi Analisis Persona & Kepribadian
 
 1.  **Profil Keseimbangan Kognitif (Radar Chart)**:
     *   Grafik radar visual yang memetakan 5 pilar kognitif anak:

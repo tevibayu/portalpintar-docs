@@ -6,7 +6,7 @@ Halaman Kalender Jadwal adalah pusat pengaturan waktu operasional belajar mengaj
 
 ---
 
-## 🗓️ Fitur Kalender Jadwal
+## Fitur Kalender Jadwal
 
 1.  **Tampilan Kalender Interaktif**:
     *   Pengelola dapat melihat seluruh jadwal kelas dalam format bulanan, mingguan, atau harian.

@@ -6,7 +6,7 @@ Halaman Analisis Siswa adalah pusat pemantauan akademik lanjutan yang memadukan 
 
 ---
 
-## 👥 Panel Navigasi & Penyaringan (Sidebar Kiri)
+## Panel Navigasi & Penyaringan (Sidebar Kiri)
 
 *   **Penyaringan Kelas**: Memfilter daftar siswa berdasarkan kelas tertentu.
 *   **Pencarian Siswa**: Kolom input pencarian untuk menemukan nama murid secara instan.
@@ -14,7 +14,7 @@ Halaman Analisis Siswa adalah pusat pemantauan akademik lanjutan yang memadukan 
 
 ---
 
-## 📈 Metrik Analitik & Visualisasi Perkembangan (Panel Kanan)
+## Metrik Analitik & Visualisasi Perkembangan (Panel Kanan)
 
 Layar ini menyajikan visualisasi data perkembangan belajar siswa:
 

@@ -6,7 +6,7 @@ Halaman Eksplorasi Fitur adalah katalog panduan interaktif yang memaparkan kemam
 
 ---
 
-## 🧭 Isi Tur Fitur
+## Isi Tur Fitur
 
 Halaman ini menyajikan kartu-kartu penjelasan fitur yang dikelompokkan berdasarkan kategori operasional:
 

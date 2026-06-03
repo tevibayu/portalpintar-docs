@@ -6,7 +6,7 @@ Layar masuk (login) dan keamanan akun PortalPintar dirancang untuk menjaga keama
 
 ---
 
-## 🔑 Halaman Masuk Multi-Peran (`/login`)
+## Halaman Masuk Multi-Peran (`/login`)
 
 Semua pengguna utama (Pemilik Bimbel dan Staf Admin) masuk ke sistem melalui halaman ini:
 
@@ -20,7 +20,7 @@ Semua pengguna utama (Pemilik Bimbel dan Staf Admin) masuk ke sistem melalui hal
 
 ---
 
-## 🏢 Halaman Pendaftaran Pengelola Baru (`/register`)
+## Halaman Pendaftaran Pengelola Baru (`/register`)
 
 Digunakan khusus oleh pemilik bimbingan belajar baru untuk membuat instansi/bimbel pertama mereka:
 *   Mengisi email pengelola, kata sandi, nama lengkap pengelola, serta **Nama Bimbingan Belajar** yang ingin dibuat.
@@ -28,7 +28,7 @@ Digunakan khusus oleh pemilik bimbingan belajar baru untuk membuat instansi/bimb
 
 ---
 
-## 🔁 Pemilih Lembaga Aktif (`/select-org`)
+## Pemilih Lembaga Aktif (`/select-org`)
 
 Layar ini akan muncul secara otomatis jika satu alamat email pengguna terdaftar sebagai pengelola atau staf di lebih dari satu instansi/bimbingan belajar:
 *   Menampilkan kartu pilihan lembaga-lembaga yang menaungi akun tersebut.

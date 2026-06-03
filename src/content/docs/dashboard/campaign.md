@@ -6,7 +6,7 @@ Halaman Broadcast & Campaign adalah modul pemasaran dan komunikasi massal. Fitur
 
 ---
 
-## 📈 Rangkuman Broadcast (Stats Row)
+## Rangkuman Broadcast (Stats Row)
 
 *   **Total**: Jumlah kampanye pesan yang pernah dibuat.
 *   **Berjalan**: Kampanye yang saat ini sedang aktif mengirim pesan di latar belakang.
@@ -15,7 +15,7 @@ Halaman Broadcast & Campaign adalah modul pemasaran dan komunikasi massal. Fitur
 
 ---
 
-## 📝 Manajemen Kampanye Pesan
+## Manajemen Kampanye Pesan
 
 Halaman utama menampilkan tabel seluruh kampanye yang dibuat beserta statusnya:
 *   **Status Kampanye**:
@@ -25,14 +25,14 @@ Halaman utama menampilkan tabel seluruh kampanye yang dibuat beserta statusnya:
     *   `Paused`: Pengiriman dihentikan sementara oleh admin.
     *   `Completed`: Semua pesan sukses terkirim ke seluruh target.
 *   **Opsi Kontrol**:
-    *   👁️ **Lihat Log**: Memantau laporan pengiriman detail per nomor penerima (sukses/gagal).
+    *   **Lihat Log**: Memantau laporan pengiriman detail per nomor penerima (sukses/gagal).
     *   ⏸️/▶️ **Jeda & Lanjutkan**: Menghentikan sementara atau melanjutkan pengiriman pesan.
-    *   🛡️ **Validasi Nomor**: Memverifikasi validitas daftar nomor HP penerima sebelum pengiriman dilakukan untuk mencegah pemblokiran WhatsApp.
-    *   ✏️ **Edit & Hapus**: Mengubah draf kampanye atau menghapus catatan kampanye.
+    *   **Validasi Nomor**: Memverifikasi validitas daftar nomor HP penerima sebelum pengiriman dilakukan untuk mencegah pemblokiran WhatsApp.
+    *   **Edit & Hapus**: Mengubah draf kampanye atau menghapus catatan kampanye.
 
 ---
 
-## ⚙️ Wizard Pembuatan Kampanye Baru (4 Langkah)
+## Wizard Pembuatan Kampanye Baru (4 Langkah)
 
 Saat mengklik **"Buat Campaign"**, sistem akan memandu Admin melalui 4 langkah terstruktur:
 

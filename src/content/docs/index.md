@@ -8,7 +8,7 @@ Silakan pilih modul panduan di bawah ini sesuai dengan kebutuhan Anda:
 
 ---
 
-## 💼 1. Panduan Dashboard Admin & Owner
+## 1. Panduan Dashboard Admin & Owner
 
 Grup panduan ini ditujukan bagi pemilik lembaga bimbingan belajar (Owner) dan staf administrasi untuk mengelola operasional, keuangan, pemasaran, dan langganan sistem.
 
@@ -25,7 +25,7 @@ Grup panduan ini ditujukan bagi pemilik lembaga bimbingan belajar (Owner) dan st
 
 ---
 
-## 🎓 2. Panduan Portal Tutor / Tentor
+## 2. Panduan Portal Tutor / Tentor
 
 Grup panduan ini ditujukan bagi para pengajar untuk mengelola administrasi kelas harian dan memantau perkembangan belajar murid secara personal.
 
@@ -38,7 +38,7 @@ Grup panduan ini ditujukan bagi para pengajar untuk mengelola administrasi kelas
 
 ---
 
-## 👤 3. Panduan Portal Siswa & Wali Murid
+## 3. Panduan Portal Siswa & Wali Murid
 
 Grup panduan ini ditujukan bagi murid dan orang tua (wali) untuk memantau kemajuan belajar mandiri serta urusan administratif.
 
@@ -49,7 +49,7 @@ Grup panduan ini ditujukan bagi murid dan orang tua (wali) untuk memantau kemaju
 
 ---
 
-## 🧪 4. Panduan Playground Interaktif
+## 4. Panduan Playground Interaktif
 
 *   [**Pembuatan Modul Video Interaktif**](/playground/overview)
     Panduan mendesain kuis pilihan ganda, rangkuman teks melayang, dan tombol link eksternal di sela-sela video YouTube/Drive untuk latihan siswa yang interaktif.

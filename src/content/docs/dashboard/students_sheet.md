@@ -6,7 +6,7 @@ Halaman Spreadsheet Siswa adalah fitur khusus yang dirancang untuk staf administ
 
 ---
 
-## 📊 Cara kerja Kisi Spreadsheet Interaktif
+## Cara kerja Kisi Spreadsheet Interaktif
 
 Tampilan layar ini menyerupai lembar sebar (Excel/Google Sheets) di mana setiap baris mewakili data satu siswa dan kolom mewakili atribut datanya:
 

@@ -6,7 +6,7 @@ Halaman Billing Center adalah panel khusus bagi pemilik bimbingan belajar (owner
 
 ---
 
-## 💰 Pilihan Paket & Skema Harga (Pricing Section)
+## Pilihan Paket & Skema Harga (Pricing Section)
 
 Di bagian atas layar, owner dapat meninjau dan memilih paket langganan PortalPintar:
 
@@ -22,7 +22,7 @@ Di bagian atas layar, owner dapat meninjau dan memilih paket langganan PortalPin
 
 ---
 
-## 💳 Kartu Status Paket Aktif (Active Plan Card)
+## Kartu Status Paket Aktif (Active Plan Card)
 
 Widget utama yang menunjukkan status kepemilikan lisensi saat ini:
 *   **Mode Uji Coba (Trial)**: Menampilkan jumlah sisa hari masa uji coba gratis bimbel Anda.
@@ -33,7 +33,7 @@ Widget utama yang menunjukkan status kepemilikan lisensi saat ini:
 
 ---
 
-## 📜 Riwayat Transaksi & Unduh Invoice
+## Riwayat Transaksi & Unduh Invoice
 
 *   Tabel riwayat yang mendata seluruh invoice pembayaran tagihan sewa platform.
 *   Tabel menampilkan: Kode Invoice, Tanggal Transaksi, Nama Paket, Nominal, dan Status (Paid/Pending).
@@ -41,7 +41,7 @@ Widget utama yang menunjukkan status kepemilikan lisensi saat ini:
 
 ---
 
-## ❓ FAQ & Bantuan Pembayaran
+## FAQ & Bantuan Pembayaran
 
 *   Daftar tanya jawab umum interaktif mengenai aturan kontrak (minimal 3 bulan untuk pendaftaran awal), keamanan data siswa, pemindahan paket (upgrade/downgrade), dan integrasi WhatsApp.
 *   Tombol hubungi bantuan teknis via WhatsApp tersedia di bagian bawah FAQ.

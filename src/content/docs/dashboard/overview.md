@@ -6,7 +6,7 @@ Halaman Beranda Dasbor adalah layar utama yang pertama kali dilihat oleh pemilik
 
 ---
 
-## 📈 Metrik & Widget Utama di Layar
+## Metrik & Widget Utama di Layar
 
 1.  **Metrik Finansial**:
     *   **Total Pendapatan SPP**: Grafik tren nominal uang masuk pembayaran SPP siswa sepanjang bulan berjalan.
