@@ -30,7 +30,7 @@ Grup panduan ini ditujukan bagi pemilik lembaga bimbingan belajar (Owner) dan st
 Grup panduan ini ditujukan bagi para pengajar untuk mengelola administrasi kelas harian dan memantau perkembangan belajar murid secara personal.
 
 *   [**Pengisian Presensi & Laporan Sesi**](/tutor/attendance)
-    Panduan mencatat kehadiran tutor & murid, mengisi rangkuman materi (silabus), dan menggunakan AI Gemini untuk memoles catatan perkembangan murid secara otomatis.
+    Panduan mencatat kehadiran tutor & murid, mengisi rangkuman materi (silabus), dan menggunakan AI  untuk memoles catatan perkembangan murid secara otomatis.
 *   [**Bank Bahan Ajar & Kurikulum**](/tutor/materials)
     Mengakses pustaka modul belajar digital, memutar video interaktif, dan membagikan lembar kerja (LKPD) ke kelas ajar.
 *   [**Laporan Progres & Analitik AI Murid**](/tutor/progress)

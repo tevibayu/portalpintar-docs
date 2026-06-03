@@ -31,7 +31,7 @@ Tutor menilai perkembangan murid secara instan melalui 7 tombol indikator (metri
 ## ✍️ Catatan Sesi & Optimasi AI (AI Note Generator)
 
 *   **Catatan Manual**: Tutor menuliskan poin-poin observasi mengenai murid (contoh: *"Budi sudah paham rumus dasar, tapi masih sering keliru menghitung perkalian desimal"*).
-*   **Optimasi AI Gemini (Saran AI)**:
+*   **Optimasi AI  (Saran AI)**:
     *   Tutor dapat mengklik tombol **"AI"** untuk memoles catatan kasar tersebut menjadi bahasa laporan yang rapi, santun, dan profesional untuk dibaca orang tua.
     *   Tutor dapat meninjau hasil draf AI, mengedit kembali, lalu mengklik **"Terapkan"** untuk memasukkannya ke kolom laporan akhir.
 

@@ -15,7 +15,7 @@ Di bagian atas layar, owner dapat meninjau dan memilih paket langganan PortalPin
 2.  **Rincian Fitur Paket**:
     *   **Paket Starter**: Terbatas hingga 50 siswa aktif, cocok untuk bimbel baru.
     *   **Paket Growth**: Siswa tanpa batas, integrasi WhatsApp otomatis, branding logo kustom.
-    *   **Paket Pro**: Dilengkapi analisis kepribadian AI Gemini, prioritas bantuan teknis, dan fitur playground editor.
+    *   **Paket Pro**: Dilengkapi analisis kepribadian AI , prioritas bantuan teknis, dan fitur playground editor.
     *   Pemilik bimbel dapat mengklik tautan *Lihat fitur lainnya* di setiap kartu paket untuk melihat keunggulan detailnya.
 3.  **Upgrade Paket**:
     *   Tombol **"Upgrade"** mengarahkan pengguna secara aman ke payment gateway untuk memproses pembayaran paket baru.

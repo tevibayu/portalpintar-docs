@@ -26,7 +26,7 @@ Tutor dapat menambahkan tiga jenis interaksi yang akan memotong video secara oto
 
 ## 🤖 Automasi AI Video (AI Suggest Interaction)
 
-*   **Deteksi Otomatis AI**: Tutor dapat mengklik tombol **"Buat Interaksi Otomatis"**. AI Gemini akan memindai dan menganalisis transkrip isi video, lalu secara cerdas menyarankan titik-titik menit penting untuk disisipi kuis atau rangkuman secara otomatis tanpa perlu tutor menonton dari awal sampai akhir.
+*   **Deteksi Otomatis AI**: Tutor dapat mengklik tombol **"Buat Interaksi Otomatis"**. AI  akan memindai dan menganalisis transkrip isi video, lalu secara cerdas menyarankan titik-titik menit penting untuk disisipi kuis atau rangkuman secara otomatis tanpa perlu tutor menonton dari awal sampai akhir.
 
 ---
 
