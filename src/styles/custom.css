@@ -227,6 +227,16 @@ ul ul li {
 	background-color: var(--sl-color-accent);
 }
 
+.pagination-links a {
+	box-shadow: var(--sl-shadow-xs) !important;
+	border: 1px solid var(--sl-color-gray-4) !important;
+	border-radius: 1.5rem !important;
+}
+
+.link-title {
+	font-size: var(--sl-text-xl);
+}
+
 /* Table Of Contents navigation container */
 starlight-toc nav {
 	position: relative;
